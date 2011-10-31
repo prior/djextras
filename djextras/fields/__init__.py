@@ -1,1 +1,1 @@
-from sanetime import SaneTimeField
+from sanetime_field import SaneTimeField
