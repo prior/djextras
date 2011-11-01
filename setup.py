@@ -3,13 +3,13 @@ from distutils.core import setup
 
 setup(
     name='djextras',
-    version='1.0.2',
+    version='1.1',
     description="Some extra django goodies",
     long_description = open('README.md').read(),
     author='Michael Prior',
     author_email='prior@cracklabs.com',
     url='https://github.com/prior/djextras',
-    download_url='https://github.com/prior/djextras/tarball/v1.0.2',
+    download_url='https://github.com/prior/djextras/tarball/v1.1',
     license='LICENSE.txt',
     packages=['djextras'],
     install_requires=[
