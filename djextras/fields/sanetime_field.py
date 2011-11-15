@@ -44,4 +44,7 @@ class SaneTimeField(models.BigIntegerField):
         #defaults.update(kwargs)
         #return super(SaneTimeFormField, self).formfield(**defaults)
 
+from south.modelsinspector import add_introspection_rules
+add_introspection_rules([], ["^djextras\.fields\.sanetime_field\.SaneTimeField"])
+    
 
